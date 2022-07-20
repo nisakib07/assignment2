@@ -1,0 +1,163 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 140px;
+}
+
+/* top part style  */
+.container {
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.description {
+
+
+    color: white;
+    /* width: 1321px;
+    margin-top: 111px; */
+    padding-left: 106px;
+    width: 50%;
+}
+
+.description h1 {
+    font-size: 70px;
+}
+
+.description p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description button {
+    background: #DD0000;
+    border-radius: 5px;
+    color: white;
+    width: 187px;
+    height: 56px;
+    font-size: 20px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.description button .fa-greater-than {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 581px;
+    height: 613px;
+    margin-top: 50px;
+    padding-left: 80px;
+
+}
+
+.transfer-news {
+    margin-top: 130px;
+    display: flex;
+    gap: 24px;
+}
+
+.pages {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.button-1,
+.button-2,
+.button-3 {
+    width: 252px;
+    height: 64px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #161616;
+    border: 0;
+    border-radius: 10px;
+    margin: 0 30px;
+    margin-bottom: 30px;
+}
+
+.button-3 {
+    margin-bottom: 0;
+    background: #DD0000;
+    color: #FFFFFF;
+}
+
+.transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+
+
+}
+
+.card-banner img {
+    width: 100%;
+}
+
+.card-content {
+    margin: 20px;
+}
+
+.all-transfers {
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    border: 1px solid #E8E8E8;
+}
+
+
+.all-transfers button {
+    margin-top: 20px;
+    width: 100px;
+    height: 32px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 500;
+    color: #161616;
+
+}
+
+.all-transfers h3 {
+    font-size: 18px;
+
+}
+
+.time-and-chat {
+    display: flex;
+}
+
+.duration {
+    display: flex;
+    align-items: center;
+}
+
+
+.comments {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
