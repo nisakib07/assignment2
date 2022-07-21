@@ -19,12 +19,14 @@ body {
 
 }
 
+.container:hover {
+    background-color: deepskyblue;
+}
+
 .description {
 
 
     color: white;
-    /* width: 1321px;
-    margin-top: 111px; */
     padding-left: 106px;
     width: 50%;
 }
@@ -113,11 +115,6 @@ body {
     background: #DD0000;
     color: #FFFFFF;
 }
-
-/* .match-blog {
-    color: white;
-    background-color: white;
-} */
 
 .transfer {
     display: grid;
@@ -267,6 +264,17 @@ body {
     font-size: 16px;
     font-weight: 500;
 
+}
+
+.social-media a {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin: 10px 10px 0 0;
+}
+
+.social-media a:hover {
+    color: #939393;
 }
 
 @media screen and (min-width:576px) and (max-width:972px) {
